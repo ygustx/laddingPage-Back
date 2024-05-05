@@ -1,0 +1,68 @@
+/*Reseta os parâmetros do navegador*/
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #1d1d1d;
+    
+}
+
+nav{
+    
+    background-color: #1d1d1d;
+    box-shadow: 10px 5px 5px #444444;
+    display: flex;
+}
+
+nav li{
+    
+    display: inline-block;
+    
+}
+
+nav li a{
+
+    display: inline-block;
+    color: rgb(#f1ca84, #ecb251);
+    padding: 15px;
+    text-decoration: none;
+}
+
+nav li:hover{
+
+    color: #fffffc;
+}
+
+.menu{
+
+    position: absolute;
+    display: none;
+    box-shadow: 0 0 2px #fffffc;
+}
+
+.menu a{
+
+    display: block;
+    color: #1d1d1d;
+}
+
+.menu a:hover{
+
+    color: rgb(#f1ca84, #ecb251);
+}
+
+.dropdown menu:hover{
+
+    color: rgb(#f1ca84, #ecb251);
+}
+
+strong{
+
+    color: #fffffc;
+}
