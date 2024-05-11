@@ -1,42 +1,116 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
+
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container-fluid{
-    
+
+.container-fluid {
+
     background-color: #1d1d1d;
     display: flex;
+    padding: 20px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
 
-.collapse navbar-collapse{
-    
+.collapse navbar-collapse {
+
     display: inline-block;
     
 }
 
-.navbar-nav{
+.navbar-brand {
+
+    color: #ecb251;
+}
+
+.nav-link {
 
     display: inline-flex;
-    color: rgb(#f1ca84, #ecb251);
+    color: #ecb251;
     padding: 15px;
     text-decoration: none;
 }
 
-.nav-item:hover{
+.nav-link:hover {
 
     color: #fffffc;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     position: absolute;
     display: none;
     box-shadow: 0 0 2px #fffffc;
 }
 
-nav-link dropdown-toggle{
+#nav-linkdropdown {
     display: block;
-    color: #1d1d1d;
+    color: #ecb251;
+}
+
+#nav-linkdropdown:hover {
+
+    color: #fffffc;
+}
+
+.dropdown-item{
+
+    color: #ecb251;
+}
+
+.dropdown-menu{
+
+    background-color: #1d1d1d;
+}
+
+/* Slide - LOCAL*/
+
+.carousel-inner{
+
+    
+}
+
+
+/* CSS DA MAIN- LOGIN*/
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+p{
+
+    color: #ecb251;
+}
+
+label{
+
+    color: #ecb251;
+}
+
+.button-login{
+
+    border-radius: 10px;
+    padding: 0.5rem;
+    padding-left: 2.5rem; 
+    padding-right: 2.5rem;
+    background-color: #ecb251;
+    text-align: center;
 }
