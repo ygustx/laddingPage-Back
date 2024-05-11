@@ -59,3 +59,30 @@ strong{
 
     color: #fffffc;
 }
+
+body{
+    width: 300px;
+    height:300px;
+     position: absolute;
+     bottom: 0;
+     right: 0;
+     top: 0;
+     left: 0;
+     margin: auto;
+     background-color: #1d1d1d;
+    
+}
+h1{
+    color: #ecb251;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-fluid {
+
+    background-color: #1d1d1d;
+    padding: 20px;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  
+}

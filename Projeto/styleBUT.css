@@ -9,14 +9,14 @@
 
 
 .container-fluid {
-
+    margin-bottom: -10px;
     background-color: #1d1d1d;
     display: flex;
     padding: 20px;
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
-    
+  
 }
 
 .collapse navbar-collapse {
@@ -28,6 +28,8 @@
 .navbar-brand {
 
     color: #ecb251;
+
+     
 }
 
 .nav-link {
@@ -108,3 +110,8 @@ label{
     background-color: #ecb251;
     text-align: center;
 }
+body{
+    margin-top: -10px;
+
+}
+
