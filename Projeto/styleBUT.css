@@ -8,6 +8,7 @@
 }
 
 
+
 .container-fluid {
     margin-bottom: -10px;
     background-color: #1d1d1d;
@@ -16,12 +17,16 @@
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
+    align-items: center;
+    text-align: center;
   
 }
 
 .collapse navbar-collapse {
 
     display: inline-block;
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -77,13 +82,13 @@
 
 .divider:after,
 .divider:before {
-content: "";
-flex: 1;
-height: 1px;
-background: #eee;
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
 }
 .h-custom {
-height: calc(100% - 73px);
+    height: calc(100% - 73px);
 }
 @media (max-width: 450px) {
 .h-custom {
@@ -91,27 +96,13 @@ height: 100%;
 }
 }
 
-p{
+/* CSS DA MAIN- TABLE*/
 
-    color: #ecb251;
-}
-
-label{
-
-    color: #ecb251;
-}
-
-.button-login{
-
-    border-radius: 10px;
-    padding: 0.5rem;
-    padding-left: 2.5rem; 
-    padding-right: 2.5rem;
-    background-color: #ecb251;
-    text-align: center;
-}
-body{
-    margin-top: -10px;
-
-}
+#tabela {
+    width: 100%;
+  }
+  
+  th {
+    height: 70px;
+  }
 
