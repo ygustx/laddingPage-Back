@@ -5,20 +5,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
 
 
 .container-fluid {
     margin-bottom: -10px;
-    background-color: #1d1d1d;
-    display: flex;
+    margin-top: -10px;
+    background-color: #ecb251;
+    display: none;
     padding: 20px;
     font-family: "Sedan SC", serif;
     font-weight: 400;
     font-style: normal;
     align-items: center;
     text-align: center;
+    
   
 }
 
@@ -28,21 +56,25 @@
     align-items: center;
     text-align: center;
     
+    
 }
 
 .navbar-brand {
 
-    color: #ecb251;
-    
+    color: #1d1d1d;
+    margin-right: 60%;
+    font-size: 40px;
      
 }
 
 .nav-link {
 
     display: inline-flex;
-    color: #ecb251;
+    color: #1d1d1d;
     padding: 15px;
     text-decoration: none;
+    margin-left: 30px;
+    font-size: 20px;
 }
 
 .nav-link:hover {
@@ -58,7 +90,7 @@
 
 #nav-linkdropdown {
     display: block;
-    color: #ecb251;
+    color: #1d1d1d;
 }
 
 #nav-linkdropdown:hover {
@@ -69,11 +101,13 @@
 .dropdown-item{
 
     color: #ecb251;
+    font-size: 20px;
+    
 }
 
 .dropdown-menu{
 
-    background-color: #1d1d1d;
+    background-color: #fffffc;
 }
 
 
@@ -86,15 +120,18 @@
     flex: 1;
     height: 1px;
     background: #eee;
+    
 }
 .h-custom {
     height: calc(100% - 73px);
+    
 }
 @media (max-width: 450px) {
 .h-custom {
 height: 100%;
 }
 }
+
 
 /* CSS DA MAIN- TABLE*/
 
