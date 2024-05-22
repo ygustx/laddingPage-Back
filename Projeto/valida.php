@@ -9,7 +9,7 @@ if(isset($_POST['email']) && isset($_POST['senha'])){
 
     //consulte SQL para verificar se as credenciais estao corretas
 
-    $sql = "SELECT * FROM usuarios WHERE email='$email' AND senha='$senha' ";
+    $sql = "SELECT * FROM cadastro WHERE email='$email' AND senha='$senha' ";
     $result = $conn ->query($sql);
     
     if($result -> num_rows > 0){

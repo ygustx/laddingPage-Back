@@ -5,12 +5,11 @@
     //Inserindo dados
 
     $nome = $_POST['nome'];
-    $tel = $_POST['tel'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
 
-    $sql = "insert into usuarios (nome, tel, email, senha)
-    values ('{$nome}', '{$tel}', '{$email}', '{$senha}')";
+    $sql = "insert into usuarios (nome, email, senha)
+    values ('{$nome}', '{$email}', '{$senha}')";
 
     mysqli_query($conn, $sql) or die("Erro ao tentar cadastrar
     registro");
