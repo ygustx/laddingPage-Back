@@ -1,150 +1,113 @@
- @import url('https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap');
-
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-.map-responsive{
-
-    overflow:hidden;
-
-    padding-bottom:56.25%;
-
-    position:relative;
-
-    height:0;
-
-}
-
-.map-responsive iframe{
-
-    left:0;
-
-    top:0;
-
-    height:100%;
-
-    width:100%;
-
-    position:absolute;
-
-}
-
-
-.container-fluid {
-    margin-bottom: -10px;
-    margin-top: -10px;
-    background-color: #ecb251;
-    display: none;
-    padding: 20px;
-    font-family: "Sedan SC", serif;
-    font-weight: 400;
-    font-style: normal;
-    align-items: center;
-    text-align: center;
-    
-  
-}
-
-.collapse navbar-collapse {
-
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    
-    
-}
-
-.navbar-brand {
-
-    color: #1d1d1d;
-    margin-right: 60%;
-    font-size: 40px;
-     
-}
-
-.nav-link {
-
-    display: inline-flex;
-    color: #1d1d1d;
-    padding: 15px;
-    text-decoration: none;
-    margin-left: 30px;
-    font-size: 20px;
-}
-
-.nav-link:hover {
-
-    color: #fffffc;
-}
-
-.dropdown-menu {
-    position: absolute;
-    display: none;
-    box-shadow: 0 0 2px #fffffc;
-}
-
-#nav-linkdropdown {
-    display: block;
-    color: #1d1d1d;
-}
-
-#nav-linkdropdown:hover {
-
-    color: #fffffc;
-}
-
-.dropdown-item{
-
-    color: #ecb251;
-    font-size: 20px;
-    
-}
-
-.dropdown-menu{
-
+/* General Styles */
+body {
     background-color: #fffffc;
-}
-
-
-
-/* CSS DA MAIN- LOGIN*/
-
-.divider:after,
-.divider:before {
-    content: "";
-    flex: 1;
-    height: 100%;
-    background: #eee;
-    
-}
-.h-custom {
-    height: calc(100% - 73px);
-    
-}
-@media (max-width: 450px) {
-.h-custom {
-height: 100%;
-}
-}
-
-#login{
-
-    height: 100%;
-    width: 100%;
-}
-
-/* CSS DA MAIN- TABLE*/
-
-#tabela {
-    width: 100%;
+    color: #1d1d1d;
+    font-family: Arial, sans-serif;
   }
   
-  th {
-    height: 70px;
+  a {
+    color: #ecb251;
   }
-
+  
+  a:hover {
+    color: #f1ca84;
+  }
+  
+  .navbar {
+    background-color: #1d1d1d;
+  }
+  
+  .nav-link, .navbar-brand {
+    color: #f1ca84 !important;
+  }
+  
+  .nav-link:hover, .navbar-brand:hover {
+    color: #ecb251 !important;
+  }
+  
+  .card {
+    background-color: #fffffc;
+    border-color: #f1ca84;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(90deg, #f1ca84, #ecb251);
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background: linear-gradient(90deg, #ecb251, #f1ca84);
+  }
+  
+  .link-primary {
+    color: #ecb251 !important;
+  }
+  
+  .link-primary:hover {
+    color: #f1ca84 !important;
+  }
+  
+  /* Header Styles */
+  header {
+    margin-bottom: 20px;
+  }
+  
+  /* Login Section Styles */
+  #login .card {
+    background-color: #fffffc;
+    border: 1px solid #f1ca84;
+  }
+  
+  #login .form-control {
+    border-color: #f1ca84;
+  }
+  
+  #login .form-control:focus {
+    border-color: #ecb251;
+    box-shadow: 0 0 0 0.25rem rgba(236, 178, 81, 0.25);
+  }
+  
+  #login .btn-primary {
+    background: linear-gradient(90deg, #f1ca84, #ecb251);
+    border: none;
+  }
+  
+  #login .btn-primary:hover {
+    background: linear-gradient(90deg, #ecb251, #f1ca84);
+  }
+  
+  #login .link-primary {
+    color: #ecb251;
+  }
+  
+  #login .link-primary:hover {
+    color: #f1ca84;
+  }
+  
+  .form-check-label, .text-secondary {
+    color: #1d1d1d !important;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #1d1d1d;
+    padding: 20px 0;
+    text-align: center;
+    color: #f1ca84;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 576px) {
+    .navbar .navbar-toggler {
+      border-color: #f1ca84;
+    }
+  
+    .navbar .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28241,202,132,1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  
+    #login .card {
+      margin: 10px;
+    }
+  }
+  
