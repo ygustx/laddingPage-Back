@@ -16,7 +16,7 @@ $dbname = "biblioteca1";
 
 //Criar conexao
 
-$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conn = mysqli_connect($servidor, $cadastro, $senha, $dbname);
 
 
 ?>
