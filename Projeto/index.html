@@ -45,22 +45,21 @@
                         </ul>
                     </div><!-- social media -->
                     <p class="description description-second">Perfis do Desenvolvedor:</p>
-                    <form name="form_cad_user" class="form" method="post" action="cad_user.php">
+                    <form class="form" action="register.php" method="post">
                         <label class="label-input" for="">
                             <i class="far fa-user icon-modify"></i>
-                            <input type="text" placeholder="Nome">
+                            <input type="text" name="nome" placeholder="Nome">
                         </label>
 
                         <label class="label-input" for="">
                             <i class="far fa-envelope icon-modify"></i>
-                            <input type="email" placeholder="Email">
+                            <input type="email" name="email" placeholder="Email">
                         </label>
 
                         <label class="label-input" for="">
                             <i class="fas fa-lock icon-modify"></i>
-                            <input type="password" placeholder="Password">
+                            <input type="password" name="senha" placeholder="Password">
                         </label>
-
 
                         <button type="submit" class="btn btn-second">Inscreva-se</button>
                     </form>
@@ -101,16 +100,16 @@
                     </ul>
                 </div><!-- social media -->
                 <p class="description description-second">Perfis do Desenvolvedor:</p>
-                <form name="form_login" class="form" action="valida.php" method="post">
+                <form class="form" action="login.php" method="post">
 
                     <label class="label-input" for="">
                         <i class="far fa-envelope icon-modify"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email">
                     </label>
 
                     <label class="label-input" for="">
                         <i class="fas fa-lock icon-modify"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="senha" placeholder="Password">
                     </label>
 
                     <a class="password" href="#">Esqueceu sua senha?</a>
