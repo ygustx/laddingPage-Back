@@ -12,7 +12,7 @@ DBNAME - Nome do banco de dados
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$dbname = "bd_remix";
+$dbname = "biblioteca1";
 
 //Criar conexao
 
