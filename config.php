@@ -5,7 +5,7 @@ $password = "";
 $dbname = "meubanco";
 
 // Cria a conexão
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
 // Verifica a conexão
 if ($conn->connect_error) {
