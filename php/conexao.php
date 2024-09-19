@@ -14,7 +14,7 @@ $usuario = "root";
 $senha = "";
 $dbname = "biblioteca1";
 
-//Criar conexao
+//Criar conexao agr
 
 $conn = mysqli_connect($servidor, $cadastro, $senha, $dbname);
 
