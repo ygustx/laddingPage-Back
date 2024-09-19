@@ -154,6 +154,9 @@ $conn->close();
         <div class="shadow"></div>
         <span>Carregando</span>
     </div>
+<div>
 
+
+</div>
 </body>
 </html>
