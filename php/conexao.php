@@ -12,11 +12,11 @@ DBNAME - Nome do banco de dados
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-$dbname = "biblioteca";
+$dbname = "biblioteca1";
 
-//Criar conexao
+//Criar conexao agr
 
-$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conn = mysqli_connect($servidor, $cadastro, $senha, $dbname);
 
 
 ?>
